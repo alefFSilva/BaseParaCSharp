@@ -25,36 +25,36 @@ namespace Operator
 
             //Comparativos
 
-            if (a > b)
-                // Console.WriteLine("a > b");
+            //if (a > b)
+            //    // Console.WriteLine("a > b");
 
-                if (b < a)
-                    // Console.WriteLine("b < a");
+            //    if (b < a)
+            //        // Console.WriteLine("b < a");
 
-                    // => - Lambda
-                    if (a >= b)
-                        //    Console.WriteLine("a >= b");
+            //        // => - Lambda
+            //        if (a >= b)
+            //            //    Console.WriteLine("a >= b");
 
-                        if (b <= a)
-                            //   Console.WriteLine("b <= a");
+            //            if (b <= a)
+            //                //   Console.WriteLine("b <= a");
 
-                            //Equals
-                            if (a == b)
-                                //  Console.WriteLine("a == b");
+            //                //Equals
+            //                if (a == b)
+            //                    //  Console.WriteLine("a == b");
 
-                                //Not
-                                if (a != b)
-                                    // Console.WriteLine("a != b");
+            //                    //Not
+            //                    if (a != b)
+            //                        // Console.WriteLine("a != b");
 
-                                    //Lógicos
-                                    //XOR  - Lógico Exclusivo  - Um ou outro
-                                    if (true ^ false)
-                                        //Console.WriteLine("true");
+            //                        //Lógicos
+            //                        //XOR  - Lógico Exclusivo  - Um ou outro
+            //                        if (true ^ false)
+            //                            //Console.WriteLine("true");
 
-                                        //Condicionais
+            //                            //Condicionais
 
-                                        //AND
-                                        if (true && true)
+            //                            //AND
+            //                            if (true && true)
                                             //    Console.WriteLine("true");
 
                                             //OR 
@@ -69,10 +69,18 @@ namespace Operator
             Console.WriteLine("Valor 2: ");
             int v2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Soma: ");
-            Console.WriteLine("Subtração: ");
-            Console.WriteLine("Multiplicação: ");
-            Console.WriteLine("Divisão: ");
+            Console.WriteLine("Soma: " +  Convert.ToString(v1 + v2) );
+            Console.WriteLine("Subtração: " + Convert.ToString(v1 - v2));
+            Console.WriteLine("Multiplicação: " + Convert.ToString(v1 * v2));
+            Console.WriteLine("Divisão: " + Convert.ToString(v1 / v2));
+
+            if (v1 > 0 && v2 > 0)
+                Console.WriteLine("Valores v1 2 v2 Maiores que zero");
+
+            if (v1 + v2 <= 0 || v1 - v2 <= 0 || v1 * v2 <= 0 || v1 / v2 <= 0)
+                Console.WriteLine("Uma ou mais operações  possui valor Menor ou Igual a Zero");
+
+            Console.ReadKey();
         }
     }
 }
