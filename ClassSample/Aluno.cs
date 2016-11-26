@@ -12,7 +12,12 @@ namespace ClassSample
         public Aluno()
         {
             Console.WriteLine("Constructor constructor.");
-        
+        }
+
+        public Aluno(string _nome, int _idade)
+        {
+            this.nome   = _nome;
+            this.idade = _idade; 
         }
 
         //Fields
