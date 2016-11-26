@@ -47,7 +47,7 @@ namespace ClassSample
         }
 
         //Destructor 
-
+ 
         ~Aluno()
         {
             Console.WriteLine("Aluno Destruct");
