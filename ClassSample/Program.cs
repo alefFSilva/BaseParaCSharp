@@ -14,8 +14,10 @@ namespace ClassSample
 
             a1.Nome = "João";
             a1.Idade = 30;
-            
 
+            Aluno a2 = new Aluno("Alef", 23);
+
+            a1.limpar();
 
                Console.ReadKey();
 

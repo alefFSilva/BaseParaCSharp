@@ -51,6 +51,13 @@ namespace ClassSample
             }
         }
 
+        public void limpar()
+        {
+            this.nome   =   string.Empty;
+            this.idade = 0;
+
+        }
+
         //Destructor 
         ~Aluno()
         {
