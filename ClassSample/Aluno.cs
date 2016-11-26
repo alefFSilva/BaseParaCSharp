@@ -14,6 +14,22 @@ namespace ClassSample
         
         }
 
+        private string nome;
+
+        public string Nome
+        {
+            get
+            {
+                return nome;
+            }
+
+            set
+            {
+                nome = value;
+            }
+
+        }
+
         ~Aluno()
         {
             Console.WriteLine("Aluno Destruct");

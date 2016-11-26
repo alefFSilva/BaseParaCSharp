@@ -11,7 +11,13 @@ namespace ClassSample
         static void Main(string[] args)
         {
             Aluno a1 = new Aluno();
+
+            a1.Nome = "João";
+            
+
+
                Console.ReadKey();
-                   }
+
+        }
     }
 }
