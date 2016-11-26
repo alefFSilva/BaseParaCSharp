@@ -17,7 +17,7 @@ namespace ClassSample
 
             Aluno a2 = new Aluno("Alef", 23);
 
-            a1.limpar();
+            a1.Limpar();
 
                Console.ReadKey();
 
