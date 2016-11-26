@@ -13,6 +13,7 @@ namespace ClassSample
             Aluno a1 = new Aluno();
 
             a1.Nome = "João";
+            a1.Idade = 30;
             
 
 
