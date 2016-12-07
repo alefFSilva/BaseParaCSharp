@@ -66,7 +66,6 @@ namespace Construtores
         {
             this.tempo = 10;
           
-
         }
     }
 
