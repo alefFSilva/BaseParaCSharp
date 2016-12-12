@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropriedadesAutomáticas", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializer", "ObjectInitializer\ObjectInitializer.csproj", "{C12C8D3C-9E08-4888-B79B-48FA9F9D8653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeInference_Dynamic", "TypeInference_Dynamic\TypeInference_Dynamic.csproj", "{096C9260-BF44-4123-929B-23A01B3011D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C12C8D3C-9E08-4888-B79B-48FA9F9D8653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C12C8D3C-9E08-4888-B79B-48FA9F9D8653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C12C8D3C-9E08-4888-B79B-48FA9F9D8653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096C9260-BF44-4123-929B-23A01B3011D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096C9260-BF44-4123-929B-23A01B3011D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096C9260-BF44-4123-929B-23A01B3011D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096C9260-BF44-4123-929B-23A01B3011D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
