@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializer", "Object
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeInference_Dynamic", "TypeInference_Dynamic\TypeInference_Dynamic.csproj", "{096C9260-BF44-4123-929B-23A01B3011D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesEstaticas", "classesEstaticas\classesEstaticas.csproj", "{20D7BDE2-B5F0-42FA-9B42-0F824C7DAD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{EC4E7557-6BAD-4B3E-B7BC-390462D8CED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{096C9260-BF44-4123-929B-23A01B3011D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096C9260-BF44-4123-929B-23A01B3011D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096C9260-BF44-4123-929B-23A01B3011D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D7BDE2-B5F0-42FA-9B42-0F824C7DAD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D7BDE2-B5F0-42FA-9B42-0F824C7DAD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D7BDE2-B5F0-42FA-9B42-0F824C7DAD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D7BDE2-B5F0-42FA-9B42-0F824C7DAD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4E7557-6BAD-4B3E-B7BC-390462D8CED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4E7557-6BAD-4B3E-B7BC-390462D8CED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4E7557-6BAD-4B3E-B7BC-390462D8CED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4E7557-6BAD-4B3E-B7BC-390462D8CED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
