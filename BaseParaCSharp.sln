@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesDeExtensao", "ClassesDeExtensao\ClassesDeExtensao.csproj", "{52BFD13B-0CAB-4336-A48E-8F5EC1A5CC93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{1C5F6E82-F293-42C9-B8B8-6B5522BD1011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{52BFD13B-0CAB-4336-A48E-8F5EC1A5CC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BFD13B-0CAB-4336-A48E-8F5EC1A5CC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BFD13B-0CAB-4336-A48E-8F5EC1A5CC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5F6E82-F293-42C9-B8B8-6B5522BD1011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5F6E82-F293-42C9-B8B8-6B5522BD1011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5F6E82-F293-42C9-B8B8-6B5522BD1011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5F6E82-F293-42C9-B8B8-6B5522BD1011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
